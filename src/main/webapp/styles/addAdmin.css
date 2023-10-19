@@ -1,0 +1,61 @@
+:root{
+    --bgcol: #1b203d;
+    --secondcol: rgb(61, 188, 236);
+    --red: #fe3c33;
+    --grey : #fafafa;
+    --bgsecond: #272c4a;
+    --dark-grey : #afafaf;
+}
+
+.add-admin-form{
+    box-sizing: border-box;
+    padding: 50px;
+    width: 70%;
+    height: 60vh;
+    background-color:var(--bgsecond) ;
+    margin: 0px auto;
+    line-height: 40px;
+}
+
+.add-admin-form .input-field{
+    padding: 10px 5px;
+    width: 100%;
+    border: none;
+    display: inline-block;
+}
+.add-admin-form .input-field:focus{
+    background-color: lightblue;
+}
+.add-admin-form h1{
+    text-align: center;
+    color: var(--red);
+}
+.add-admin-form p{
+    color: white;
+    font-size: 18px;
+}
+
+.submit-btn{
+    display: block;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.admin-table{
+	width:65%;
+	background-color:#272c4a;
+	border-radius:5px;
+	margin:10px auto;
+	text-align:center;
+	
+	
+}
+.admin-table th{
+	padding:10px;
+	color:grey;
+}
+.admin-table tr td{
+	color:grey;
+}

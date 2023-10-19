@@ -1,0 +1,49 @@
+:root{
+    --bgcol: #1b203d;
+    --secondcol: rgb(61, 188, 236);
+    --red: #fe3c33;
+    --grey : #fafafa;
+    --bgsecond: #272c4a;
+    --dark-grey : #afafaf;
+}
+*{
+    box-sizing: border-box;
+}
+
+.detail-container{
+    margin-top: unset;
+    height: 80vh;
+
+}
+.adminAccount{
+    width: 80%;
+    padding: 40px;
+    background-color: var(--bgsecond) ;
+
+}
+
+.adminAccount img{
+    margin-left: 40%;
+    text-align: center;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.adminAccount p{
+    color: white;
+    margin-bottom: 10px;
+}
+.adminAccount input{
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+
+}
+.btn{
+    background-color: var(--secondcol);
+}
+.btn:hover{
+    background-color:aqua;
+    cursor: pointer;
+}
